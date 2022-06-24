@@ -50,7 +50,7 @@ namespace Simple_VPN
             this.PPTP_rBtn = new System.Windows.Forms.RadioButton();
             this.ProtocolGrpBox = new System.Windows.Forms.GroupBox();
             this.RecommendedLbl = new System.Windows.Forms.Label();
-            this.L2TP_rBtn = new System.Windows.Forms.RadioButton();
+        //    this.L2TP_rBtn = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.CountriesFlgPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.statusPicbox)).BeginInit();
             this.CMenu.SuspendLayout();
@@ -102,7 +102,7 @@ namespace Simple_VPN
             this.NameLbl.Name = "NameLbl";
             this.NameLbl.Size = new System.Drawing.Size(145, 22);
             this.NameLbl.TabIndex = 3;
-            this.NameLbl.Text = "SimpleVPN 1.3.4";
+            this.NameLbl.Text = "VPN_PPTPprotocol";
             // 
             // CountriesCmBox
             // 
@@ -252,7 +252,7 @@ namespace Simple_VPN
             // ProtocolGrpBox
             // 
             this.ProtocolGrpBox.Controls.Add(this.RecommendedLbl);
-            this.ProtocolGrpBox.Controls.Add(this.L2TP_rBtn);
+           // this.ProtocolGrpBox.Controls.Add(this.L2TP_rBtn);
             this.ProtocolGrpBox.Controls.Add(this.PPTP_rBtn);
             this.ProtocolGrpBox.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProtocolGrpBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
@@ -271,21 +271,21 @@ namespace Simple_VPN
             this.RecommendedLbl.Name = "RecommendedLbl";
             this.RecommendedLbl.Size = new System.Drawing.Size(86, 14);
             this.RecommendedLbl.TabIndex = 15;
-            this.RecommendedLbl.Text = "(recommended)";
+          //  this.RecommendedLbl.Text = "(recommended)";
             // 
             // L2TP_rBtn
             // 
-            this.L2TP_rBtn.AutoSize = true;
-            this.L2TP_rBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.L2TP_rBtn.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L2TP_rBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
-            this.L2TP_rBtn.Location = new System.Drawing.Point(206, 13);
-            this.L2TP_rBtn.Name = "L2TP_rBtn";
-            this.L2TP_rBtn.Size = new System.Drawing.Size(68, 27);
-            this.L2TP_rBtn.TabIndex = 14;
-            this.L2TP_rBtn.Text = "L2TP";
-            this.L2TP_rBtn.UseVisualStyleBackColor = true;
-            this.L2TP_rBtn.MouseClick += new System.Windows.Forms.MouseEventHandler(this.L2TP_rBtn_MouseClick);
+         //   this.L2TP_rBtn.AutoSize = true;
+          //  this.L2TP_rBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+          //  this.L2TP_rBtn.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+          //  this.L2TP_rBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
+         //   this.L2TP_rBtn.Location = new System.Drawing.Point(206, 13);
+         //   this.L2TP_rBtn.Name = "L2TP_rBtn";
+         //   this.L2TP_rBtn.Size = new System.Drawing.Size(68, 27);
+        //    this.L2TP_rBtn.TabIndex = 14;
+         //   this.L2TP_rBtn.Text = "L2TP";
+         //   this.L2TP_rBtn.UseVisualStyleBackColor = true;
+          //  this.L2TP_rBtn.MouseClick += new System.Windows.Forms.MouseEventHandler(this.L2TP_rBtn_MouseClick);
             // 
             // Dashboard
             // 
@@ -342,7 +342,7 @@ namespace Simple_VPN
         private System.Windows.Forms.Button InfoBtn;
         private System.Windows.Forms.RadioButton PPTP_rBtn;
         private System.Windows.Forms.GroupBox ProtocolGrpBox;
-        private System.Windows.Forms.RadioButton L2TP_rBtn;
+       // private System.Windows.Forms.RadioButton L2TP_rBtn;
         private System.Windows.Forms.Label RecommendedLbl;
 
 

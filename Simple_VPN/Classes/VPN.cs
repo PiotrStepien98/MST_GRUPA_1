@@ -74,23 +74,23 @@ namespace Simple_VPN.Classes
                 {
                     Entry = RasEntry.CreateVpnEntry(adapterName, serverIP, RasVpnStrategy.PptpOnly, RasDevice.GetDeviceByName("(PPTP)", RasDeviceType.Vpn));
                 }
-                else
-                {
-                    Entry = RasEntry.CreateVpnEntry(adapterName, serverIP, RasVpnStrategy.L2tpOnly, RasDevice.GetDeviceByName("(L2TP)", RasDeviceType.Vpn));
-                }
+               // else
+               // {
+               //     Entry = RasEntry.CreateVpnEntry(adapterName, serverIP, RasVpnStrategy.L2tpOnly, RasDevice.GetDeviceByName("(L2TP)", RasDeviceType.Vpn));
+              //  }
 
-                PhoneBook.Entries.Add(Entry);
-                Entry.Options.PreviewDomain = false;
-                Entry.Options.ShowDialingProgress = false;
-                Entry.Options.PromoteAlternates = false;
-                Entry.Options.DoNotNegotiateMultilink = false;
+               // PhoneBook.Entries.Add(Entry);
+              //  Entry.Options.PreviewDomain = false;
+              //  Entry.Options.ShowDialingProgress = false;
+               // Entry.Options.PromoteAlternates = false;
+              //  Entry.Options.DoNotNegotiateMultilink = false;
 
-                if (vpnProtocol.Equals("L2TP"))
-                {
-                    Entry.Options.UsePreSharedKey = true;
-                    Entry.UpdateCredentials(RasPreSharedKey.Client, preSharedKey);
-                    Entry.Update();
-                }
+              //  if (vpnProtocol.Equals("L2TP"))
+              //  {
+               //     Entry.Options.UsePreSharedKey = true;
+              //      Entry.UpdateCredentials(RasPreSharedKey.Client, preSharedKey);
+              //      Entry.Update();
+              //  }
 
                 dialer.EntryName = adapterName;
                 dialer.PhoneBookPath = RasPhoneBook.GetPhoneBookPath(RasPhoneBookType.AllUsers);

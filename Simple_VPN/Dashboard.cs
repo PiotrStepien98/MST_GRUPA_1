@@ -54,7 +54,7 @@ namespace Simple_VPN
             }
             else
             {
-                if (!PPTP_rBtn.Checked && !L2TP_rBtn.Checked)
+                if (!PPTP_rBtn.Checked)
                 {
                     MessageBox.Show("Please Select a Protocol", "Error at 0x59", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
