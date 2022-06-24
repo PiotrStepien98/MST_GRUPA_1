@@ -32,12 +32,9 @@
             this.SeprLbl = new System.Windows.Forms.Label();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.NameLbl = new System.Windows.Forms.Label();
-            this.LatestLbl = new System.Windows.Forms.Label();
-            this.LatestDynLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.TelegramPicBox = new System.Windows.Forms.PictureBox();
             this.InstagramPicBox = new System.Windows.Forms.PictureBox();
-            this.SubLblStatic = new System.Windows.Forms.Label();
             this.SubLblDyn = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TelegramPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InstagramPicBox)).BeginInit();
@@ -76,28 +73,6 @@
             this.NameLbl.TabIndex = 5;
             this.NameLbl.Text = "Change Logs :";
             // 
-            // LatestLbl
-            // 
-            this.LatestLbl.AutoSize = true;
-            this.LatestLbl.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LatestLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
-            this.LatestLbl.Location = new System.Drawing.Point(12, 45);
-            this.LatestLbl.Name = "LatestLbl";
-            this.LatestLbl.Size = new System.Drawing.Size(53, 21);
-            this.LatestLbl.TabIndex = 6;
-            this.LatestLbl.Text = "1.3.4 :";
-            // 
-            // LatestDynLbl
-            // 
-            this.LatestDynLbl.AutoSize = true;
-            this.LatestDynLbl.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LatestDynLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
-            this.LatestDynLbl.Location = new System.Drawing.Point(25, 64);
-            this.LatestDynLbl.Name = "LatestDynLbl";
-            this.LatestDynLbl.Size = new System.Drawing.Size(220, 16);
-            this.LatestDynLbl.TabIndex = 7;
-            this.LatestDynLbl.Text = "[+] Added subscription for 365 days";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -133,17 +108,6 @@
             this.InstagramPicBox.TabStop = false;
             this.InstagramPicBox.Click += new System.EventHandler(this.InstagramPicBox_Click);
             // 
-            // SubLblStatic
-            // 
-            this.SubLblStatic.AutoSize = true;
-            this.SubLblStatic.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SubLblStatic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
-            this.SubLblStatic.Location = new System.Drawing.Point(330, 46);
-            this.SubLblStatic.Name = "SubLblStatic";
-            this.SubLblStatic.Size = new System.Drawing.Size(104, 19);
-            this.SubLblStatic.TabIndex = 11;
-            this.SubLblStatic.Text = "Subscription :";
-            // 
             // SubLblDyn
             // 
             this.SubLblDyn.AutoSize = true;
@@ -162,12 +126,9 @@
             this.ClientSize = new System.Drawing.Size(543, 325);
             this.ControlBox = false;
             this.Controls.Add(this.SubLblDyn);
-            this.Controls.Add(this.SubLblStatic);
             this.Controls.Add(this.InstagramPicBox);
             this.Controls.Add(this.TelegramPicBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.LatestDynLbl);
-            this.Controls.Add(this.LatestLbl);
             this.Controls.Add(this.NameLbl);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.SeprLbl);
@@ -191,12 +152,9 @@
         private System.Windows.Forms.Label SeprLbl;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.Label NameLbl;
-        private System.Windows.Forms.Label LatestLbl;
-        private System.Windows.Forms.Label LatestDynLbl;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox TelegramPicBox;
         private System.Windows.Forms.PictureBox InstagramPicBox;
-        private System.Windows.Forms.Label SubLblStatic;
         private System.Windows.Forms.Label SubLblDyn;
     }
 }
