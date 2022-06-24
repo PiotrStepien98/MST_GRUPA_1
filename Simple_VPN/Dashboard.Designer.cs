@@ -252,7 +252,7 @@ namespace Simple_VPN
             // ProtocolGrpBox
             // 
             this.ProtocolGrpBox.Controls.Add(this.RecommendedLbl);
-           // this.ProtocolGrpBox.Controls.Add(this.L2TP_rBtn);
+           
             this.ProtocolGrpBox.Controls.Add(this.PPTP_rBtn);
             this.ProtocolGrpBox.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProtocolGrpBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
@@ -262,33 +262,14 @@ namespace Simple_VPN
             this.ProtocolGrpBox.TabIndex = 14;
             this.ProtocolGrpBox.TabStop = false;
             this.ProtocolGrpBox.Text = "Protocol";
-            // 
-            // RecommendedLbl
-            // 
+       
             this.RecommendedLbl.AutoSize = true;
             this.RecommendedLbl.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RecommendedLbl.Location = new System.Drawing.Point(104, 22);
             this.RecommendedLbl.Name = "RecommendedLbl";
             this.RecommendedLbl.Size = new System.Drawing.Size(86, 14);
             this.RecommendedLbl.TabIndex = 15;
-          //  this.RecommendedLbl.Text = "(recommended)";
-            // 
-            // L2TP_rBtn
-            // 
-         //   this.L2TP_rBtn.AutoSize = true;
-          //  this.L2TP_rBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-          //  this.L2TP_rBtn.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-          //  this.L2TP_rBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
-         //   this.L2TP_rBtn.Location = new System.Drawing.Point(206, 13);
-         //   this.L2TP_rBtn.Name = "L2TP_rBtn";
-         //   this.L2TP_rBtn.Size = new System.Drawing.Size(68, 27);
-        //    this.L2TP_rBtn.TabIndex = 14;
-         //   this.L2TP_rBtn.Text = "L2TP";
-         //   this.L2TP_rBtn.UseVisualStyleBackColor = true;
-          //  this.L2TP_rBtn.MouseClick += new System.Windows.Forms.MouseEventHandler(this.L2TP_rBtn_MouseClick);
-            // d
-            // Dashboardxx
-            // 
+       
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(27)))), ((int)(((byte)(33)))));
