@@ -96,7 +96,7 @@ namespace Simple_VPN.Classes
                 dialer.PhoneBookPath = RasPhoneBook.GetPhoneBookPath(RasPhoneBookType.AllUsers);
                 dialer.Credentials = new NetworkCredential(userName, passWord);
             }
-            handle = dialer.DialAsync();
+     //       handle = dialer.DialAsync();
         }
 
         public void Disconnect()

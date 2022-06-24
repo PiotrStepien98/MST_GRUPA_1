@@ -184,11 +184,11 @@ namespace Simple_VPN
             this.usermode_Lbl.BackColor = System.Drawing.Color.Transparent;
             this.usermode_Lbl.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usermode_Lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
-            this.usermode_Lbl.Location = new System.Drawing.Point(138, 14);
+            this.usermode_Lbl.Location = new System.Drawing.Point(167, 14);
             this.usermode_Lbl.Name = "usermode_Lbl";
             this.usermode_Lbl.Size = new System.Drawing.Size(43, 14);
             this.usermode_Lbl.TabIndex = 11;
-            this.usermode_Lbl.Text = "(Latest)";
+            this.usermode_Lbl.Text = "siuda_stepien";
             // 
             // NotifyIcon
             // 
@@ -202,7 +202,7 @@ namespace Simple_VPN
             // openApplicationToolStripMenuItem
             // 
             this.openApplicationToolStripMenuItem.Name = "openApplicationToolStripMenuItem";
-            this.openApplicationToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.openApplicationToolStripMenuItem.Size = new System.Drawing.Size(290, 22);
             this.openApplicationToolStripMenuItem.Text = "Open Application";
             this.openApplicationToolStripMenuItem.Click += new System.EventHandler(this.openApplicationToolStripMenuItem_Click);
             // 
@@ -219,7 +219,7 @@ namespace Simple_VPN
             this.openApplicationToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.CMenu.Name = "CMenu";
-            this.CMenu.Size = new System.Drawing.Size(168, 48);
+            this.CMenu.Size = new System.Drawing.Size(200, 48);
             // 
             // InfoBtn
             // 
@@ -258,7 +258,7 @@ namespace Simple_VPN
             this.ProtocolGrpBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(170)))), ((int)(((byte)(80)))));
             this.ProtocolGrpBox.Location = new System.Drawing.Point(12, 233);
             this.ProtocolGrpBox.Name = "ProtocolGrpBox";
-            this.ProtocolGrpBox.Size = new System.Drawing.Size(308, 46);
+            this.ProtocolGrpBox.Size = new System.Drawing.Size(480, 46);
             this.ProtocolGrpBox.TabIndex = 14;
             this.ProtocolGrpBox.TabStop = false;
             this.ProtocolGrpBox.Text = "Protocol";
@@ -286,13 +286,13 @@ namespace Simple_VPN
          //   this.L2TP_rBtn.Text = "L2TP";
          //   this.L2TP_rBtn.UseVisualStyleBackColor = true;
           //  this.L2TP_rBtn.MouseClick += new System.Windows.Forms.MouseEventHandler(this.L2TP_rBtn_MouseClick);
-            // 
-            // Dashboard
+            // d
+            // Dashboardxx
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(27)))), ((int)(((byte)(33)))));
-            this.ClientSize = new System.Drawing.Size(332, 380);
+            this.ClientSize = new System.Drawing.Size(380, 380);
             this.ControlBox = false;
             this.Controls.Add(this.ProtocolGrpBox);
             this.Controls.Add(this.InfoBtn);

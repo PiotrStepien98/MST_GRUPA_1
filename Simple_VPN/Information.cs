@@ -23,12 +23,12 @@ namespace Simple_VPN
 
         private void TelegramPicBox_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://telegram.me/AmirHossein_Rnj_01");
+            System.Diagnostics.Process.Start("https://telegram.me/");
         }
 
         private void InstagramPicBox_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.instagram.com/ahossein_rnj");
+            System.Diagnostics.Process.Start("https://www.instagram.com/");
         }
 
         private void ExitBtn_Click(object sender, EventArgs e)
