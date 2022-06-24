@@ -22,23 +22,11 @@ namespace Simple_VPN
             DisconnectBtn_Enabled_False();
         }
 
-        /* 
-         * The Below Username & Password Valid Till : April 12, 2022.
-         *
-         *       !!!  Don't Modify ServerIP & selectedProtocol !!!
-         * adapterName : You can choose whatever you like .
-         * 
-         * userName : Your username & passWord : Your password .
-         * preSharedKey : Your PreSharedKey if needed .
-         * 
-         * You can set your serverAddresses in Classes/ServerSelector.cs .
-         * 
-         */
-
+        
         private string serverIP = null;
         private string adapterName = "SimpleVPN";
-        private string userName = "ja.ck.quel.i.n.e.ba.netmp@gmail.com";
-        private string passWord = "Simple.V.P.N_U03";
+        private string userName = "wikuu.chan@gmail.com";
+        private string passWord = "zaq1@WSX";
         private string preSharedKey = "seed4me";
         private string selectedProtocol = null;
 
@@ -139,10 +127,7 @@ namespace Simple_VPN
             selectedProtocol = "PPTP";
         }
 
-        private void L2TP_rBtn_MouseClick(object sender, MouseEventArgs e)
-        {
-            selectedProtocol = "L2TP";
-        }
+       
 
         public void ExitMethod()
         {
